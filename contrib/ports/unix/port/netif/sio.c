@@ -10,6 +10,7 @@
    are included */
 #if defined(__APPLE__)
 #define _DARWIN_C_SOURCE
+#include <util.h>
 #endif
 
 #include "netif/sio.h"
