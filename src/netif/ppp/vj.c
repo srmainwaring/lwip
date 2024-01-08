@@ -28,6 +28,8 @@
  * for a 16 bit processor.
  */
 
+#pragma GCC diagnostic ignored "-Wimplicit-fallthrough"
+
 #include "netif/ppp/ppp_opts.h"
 #if PPP_SUPPORT && VJ_SUPPORT /* don't build if not configured for use in lwipopts.h */
 
